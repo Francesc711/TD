@@ -3,7 +3,7 @@ let ws = new WebSocket("wss://sose-z1oj.onrender.com/:443");
 let controllTD = document.querySelector('.controllTD') ;
 controllTD.addEventListener('input', (event) => {
   ws.send(JSON.stringify({ 
-  'slider1': controllTD.value / 100,
+  'slider1': controllTD.value / 10,
   'ID': 2233783
 }));
 }, false);
