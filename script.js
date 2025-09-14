@@ -1,5 +1,5 @@
 let ws = new WebSocket("wss://sose-z1oj.onrender.com/:443");
-let id = 2233999
+let id = 2233999;
 
 let controllTD = document.querySelector('.controllTD') ;
 controllTD.addEventListener('input', (event) => {
